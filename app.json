@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "miniprogram/pages/image-gallery/image-gallery",
+    "miniprogram/pages/admin/admin",
+    "miniprogram/pages/crystal-selection/crystal-selection"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图片展示",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

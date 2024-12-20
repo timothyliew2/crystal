@@ -1,0 +1,86 @@
+.container {
+  padding-bottom: 40rpx;
+  background: #f8f8f8;
+}
+
+/* 轮播图样式 */
+.swiper {
+  width: 100%;
+  height: 500rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 基本信息样式 */
+.info-section {
+  padding: 30rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.crystal-name {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.crystal-subtitle {
+  font-size: 26rpx;
+  color: #666;
+}
+
+/* 属性信息样式 */
+.properties-section {
+  padding: 30rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rpx;
+}
+
+.property-item {
+  display: flex;
+  align-items: center;
+}
+
+.property-label {
+  font-size: 26rpx;
+  color: #666;
+  margin-right: 20rpx;
+}
+
+.property-value {
+  font-size: 26rpx;
+  color: #333;
+}
+
+/* 功效描述样式 */
+.description-section,
+.usage-section,
+.notice-section {
+  padding: 30rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.section-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  border-left: 6rpx solid #7B68EE;
+}
+
+.description-content,
+.usage-content,
+.notice-content {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+}

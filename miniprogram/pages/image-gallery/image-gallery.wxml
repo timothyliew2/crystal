@@ -1,0 +1,57 @@
+<view class="container">
+  <!-- 顶部标签栏 -->
+  <view class="top-tab-bar">
+    <view class="tab-item {{currentMainCategory === 'purpose' ? 'active' : ''}}" 
+          bindtap="switchMainCategory" 
+          data-category="purpose">功能寓意</view>
+    <view class="tab-item {{currentMainCategory === 'mbti' ? 'active' : ''}}" 
+          bindtap="switchMainCategory" 
+          data-category="mbti">MBTI</view>
+    <view class="tab-item {{currentMainCategory === 'elements' ? 'active' : ''}}" 
+          bindtap="switchMainCategory" 
+          data-category="elements">五行</view>
+  </view>
+
+  <!-- 主要内容区域 -->
+  <view class="main-content">
+    <!-- 左侧导航栏 -->
+    <scroll-view class="nav-sidebar" scroll-y>
+      <view wx:for="{{categories[currentMainCategory]}}" 
+            wx:key="id" 
+            class="nav-item {{currentCategory === item.id ? 'active' : ''}}"
+            bindtap="switchCategory"
+            data-id="{{item.id}}">
+        {{item.name}}
+      </view>
+    </scroll-view>
+    
+    <!-- 右侧图片展示区域 -->
+    <scroll-view class="image-container" scroll-y>
+      <view class="image-grid">
+        <block wx:if="{{images.length > 0}}">
+          <view class="image-item" 
+                wx:for="{{images}}" 
+                wx:key="_id"
+                bindtap="navigateToDetail"
+                data-id="{{item._id}}">
+            <image 
+              src="{{item.url}}" 
+              mode="aspectFill" 
+              binderror="handleImageError"
+              data-index="{{index}}"
+            />
+            <view class="image-info">
+              <text class="image-name">{{item.name}}</text>
+              <text class="image-brief">{{item.brief || '暂无描述'}}</text>
+            </view>
+          </view>
+        </block>
+        <block wx:else>
+          <view class="empty-state">
+            <text>暂无图片</text>
+          </view>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>

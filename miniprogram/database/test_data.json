@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "type": "purpose",
+      "category": "love",
+      "name": "玫瑰晶",
+      "description": "代表爱情和温暖，有助于增进感情和吸引爱情。",
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/crystals/rose-quartz.jpg"
+    },
+    {
+      "type": "purpose",
+      "category": "wealth",
+      "name": "黄水晶",
+      "description": "象征财富和丰盛，能带来好运和财运。",
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/crystals/citrine.jpg"
+    },
+    {
+      "type": "mbti",
+      "category": "INTJ",
+      "name": "黑曜石",
+      "description": "适合理性思考的INTJ，增强洞察力和决策能力。",
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/crystals/obsidian.jpg"
+    },
+    {
+      "type": "elements",
+      "category": "metal",
+      "name": "白水晶",
+      "description": "属金，净化能量，增强意志力。",
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/crystals/clear-quartz.jpg"
+    }
+  ]
+}

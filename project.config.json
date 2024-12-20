@@ -1,0 +1,34 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "projectname": "图片展示小程序",
+  "setting": {
+    "useCompilerPlugins": [
+      "sass",
+      "typescript"
+    ],
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "es6": true,
+    "enhance": true,
+    "packNpmRelationList": [],
+    "minified": true,
+    "ignoreUploadUnusedFiles": true
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "3.1.2",
+  "appid": "wxadd08f395d3698e8",
+  "srcMiniprogramRoot": "miniprogram/"
+}

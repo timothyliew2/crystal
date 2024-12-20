@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/image-gallery/image-gallery",
+    "pages/assessment/assessment",
+    "pages/profile/profile",
+    "pages/crystal-detail/crystal-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "水晶之岛",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#999999",
+    "selectedColor": "#7B68EE",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/image-gallery/image-gallery",
+        "text": "查询",
+        "iconPath": "images/icons/search.png",
+        "selectedIconPath": "images/icons/search-selected.png"
+      },
+      {
+        "pagePath": "pages/assessment/assessment",
+        "text": "测评",
+        "iconPath": "images/icons/assessment.png",
+        "selectedIconPath": "images/icons/assessment-selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/icons/profile.png",
+        "selectedIconPath": "images/icons/profile-selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

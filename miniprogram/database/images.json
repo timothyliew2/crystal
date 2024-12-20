@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/IMG_4566.jpeg",
+      "name": "紫水晶",
+      "category": "love",
+      "description": "有助于稳定情感，增进感情",
+      "type": "purpose"
+    },
+    {
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/IMG_4571.jpeg",
+      "name": "黄水晶",
+      "category": "wealth",
+      "description": "招财转运，增加财运",
+      "type": "purpose"
+    },
+    {
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/IMG_4580.jpeg",
+      "name": "白水晶",
+      "category": "study",
+      "description": "提升学习能力，增强记忆力",
+      "type": "purpose"
+    },
+    {
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/IMG_4597.jpeg",
+      "name": "绿水晶",
+      "category": "health",
+      "description": "增进身体健康，提升活力",
+      "type": "purpose"
+    },
+    {
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/IMG_4606.jpeg",
+      "name": "粉水晶",
+      "category": "healing",
+      "description": "安抚情绪，治愈心灵",
+      "type": "purpose"
+    },
+    {
+      "url": "cloud://crystal-6gf3mhhcffa592f5.6372-crystal-6gf3mhhcffa592f5-1333159746/IMG_4614.jpeg",
+      "name": "蓝水晶",
+      "category": "INTJ",
+      "description": "适合建筑师型性格，提升思维清晰度",
+      "type": "mbti"
+    }
+  ]
+}

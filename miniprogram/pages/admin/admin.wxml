@@ -1,0 +1,51 @@
+<view class="admin-container">
+  <!-- 顶部选择区域 -->
+  <view class="section-header">
+    <picker mode="selector" range="{{pages[0].subPages}}" range-key="name" bindchange="onSecondLevelChange">
+      <view class="picker">
+        二级目录：{{pages[0].subPages[currentSecondLevel].name}}
+      </view>
+    </picker>
+    <picker mode="selector" range="{{categories}}" bindchange="onThirdLevelChange">
+      <view class="picker">
+        三级目录：{{categories[currentThirdLevel]}}
+      </view>
+    </picker>
+  </view>
+
+  <!-- 图片管理区域 -->
+  <view class="image-manager">
+    <view class="image-list">
+      <view class="image-item" wx:for="{{currentImages}}" wx:key="index">
+        <image src="{{item}}" mode="aspectFill"/>
+        <view class="image-actions">
+          <button size="mini" type="warn" bindtap="deleteImage" data-index="{{index}}">删除</button>
+        </view>
+      </view>
+    </view>
+    
+    <!-- 添加图片按钮 -->
+    <button class="add-image-btn" type="primary" bindtap="chooseImage">添加图片</button>
+  </view>
+
+  <!-- 分类管理区域 -->
+  <view class="category-manager">
+    <view class="section-title">分类管理</view>
+    <view class="category-list">
+      <view class="category-item" wx:for="{{categories}}" wx:key="index">
+        <input value="{{item}}" 
+               data-index="{{index}}" 
+               bindblur="updateCategory"/>
+        <button size="mini" type="warn" 
+                bindtap="deleteCategory" 
+                data-index="{{index}}">删除</button>
+      </view>
+    </view>
+    <button class="add-category-btn" 
+            type="primary" 
+            bindtap="addCategory">添加分类</button>
+  </view>
+
+  <!-- 保存按钮 -->
+  <button class="save-btn" type="primary" bindtap="saveChanges">保存更改</button>
+</view>

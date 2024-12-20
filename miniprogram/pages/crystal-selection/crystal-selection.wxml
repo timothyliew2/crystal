@@ -1,0 +1,9 @@
+<view class="container">
+  <picker mode="selector" range="{{mbtiOptions}}" bindchange="onMBTIChange">
+    <view class="picker">选择 MBTI: {{selectedMBTI}}</view>
+  </picker>
+  <picker mode="selector" range="{{fiveElementsOptions}}" bindchange="onFiveElementChange">
+    <view class="picker">选择五行: {{selectedFiveElement}}</view>
+  </picker>
+  <button bindtap="submitSelection">确认选择</button>
+</view>
